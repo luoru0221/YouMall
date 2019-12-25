@@ -22,7 +22,15 @@
         <property name="suffix" value=".html"/>
     </bean>
 
+    <!--配置CORS-->
+    <mvc:cors>
+        <mvc:mapping path="/**"/>
+    </mvc:cors>
+
     <!--配置controller-->
     <bean id="userController" class="com.luoru.controller.UserController"/>
+    <bean id="categoryController" class="com.luoru.controller.CategoryController"/>
+    <bean id="cartController" class="com.luoru.controller.CartController"/>
+    <bean id="productController" class="com.luoru.controller.ProductController"/>
 
 </beans>

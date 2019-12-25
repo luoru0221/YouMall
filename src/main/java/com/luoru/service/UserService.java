@@ -13,6 +13,6 @@ public interface UserService {
      * 根据Id查询用户信息
      * @return 查询到的User对象
      */
-    public User findUserById(String id);
+    public User userLogin(User user);
 
 }

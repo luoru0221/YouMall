@@ -1,31 +1,31 @@
 package com.luoru.pojo;
 
+/**
+ *  @author: Luoru
+ *  @Date: 2019/12/8 15:16
+ *  @Description: 用户实体类
+ */
 public class User {
-    private String userId;
+
+    private int userId;
     private String userName;
     private String userPassword;
-    private String userSex;
+    private String userPhone;
+    private String userEmail;
+    private int userType;
 
-    public String getUserId() {
+    public int getUserId() {
         return userId;
     }
 
-    public void setUserId(String userId) {
+    public void setUserId(int userId) {
         this.userId = userId;
-    }
-
-    public String getUserSex() {
-        return userSex;
-    }
-
-    public void setUserSex(String userSex) {
-        this.userSex = userSex;
     }
 
     public String getUserName() {
         return userName;
     }
-    
+
     public void setUserName(String userName) {
         this.userName = userName;
     }
@@ -38,13 +38,39 @@ public class User {
         this.userPassword = userPassword;
     }
 
+    public String getUserPhone() {
+        return userPhone;
+    }
+
+    public void setUserPhone(String userPhone) {
+        this.userPhone = userPhone;
+    }
+
+    public String getUserEmail() {
+        return userEmail;
+    }
+
+    public void setUserEmail(String userEmail) {
+        this.userEmail = userEmail;
+    }
+
+    public int getUserType() {
+        return userType;
+    }
+
+    public void setUserType(int userType) {
+        this.userType = userType;
+    }
+
     @Override
     public String toString() {
         return "User{" +
                 "userId='" + userId + '\'' +
                 ", userName='" + userName + '\'' +
                 ", userPassword='" + userPassword + '\'' +
-                ", userSex='" + userSex + '\'' +
+                ", userPhone='" + userPhone + '\'' +
+                ", userEmail='" + userEmail + '\'' +
+                ", userType=" + userType +
                 '}';
     }
 }

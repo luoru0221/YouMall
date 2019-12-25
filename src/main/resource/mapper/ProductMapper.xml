@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.luoru.mapper.ProductMapper">
+
+    <resultMap id="Product" type="com.luoru.pojo.Product">
+        <id column="product_id" property="productId"/>
+        <result column="product_name" property="productName"/>
+        <result column="product_introduction" property="productIntroduction"/>
+        <result column="product_category" property="productCategory"/>
+        <result column="product_store" property="productStore"/>
+        <result column="product_image" property="productImage"/>
+        <result column="product_stock" property="productStock"/>
+        <result column="product_price" property="productPrice"/>
+        <result column="is_shelves" property="isShelves"/>
+    </resultMap>
+
+    <resultMap id="ShowProduct" type="com.luoru.pojo.ProductShow">
+        <result column="show_group_name" property="showGroupName"/>
+        <collection property="products" ofType="com.luoru.pojo.Product">
+            <id column="product_id" property="productId"/>
+            <result column="product_name" property="productName"/>
+            <result column="product_introduction" property="productIntroduction"/>
+            <result column="product_category" property="productCategory"/>
+            <result column="product_store" property="productStore"/>
+            <result column="product_image" property="productImage"/>
+            <result column="product_stock" property="productStock"/>
+            <result column="product_price" property="productPrice"/>
+            <result column="is_shelves" property="isShelves"/>
+        </collection>
+    </resultMap>
+
+    <select id="findProductById" resultMap="Product">
+        select * from product where product_id = #{productId};
+    </select>
+
+    <select id="getShowProduct" resultMap="ShowProduct">
+        select * from showproduct,product where showproduct.show_product_id = product.product_id;
+    </select>
+
+</mapper>

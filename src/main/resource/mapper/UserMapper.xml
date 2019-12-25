@@ -4,7 +4,25 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.luoru.mapper.UserMapper">
 
-    <select id="findUserById" resultType="com.luoru.pojo.User">
-        select * from user where user_id = #{id};
+    <resultMap id="User" type="com.luoru.pojo.User">
+        <id column="user_id" property="userId"/>
+        <result column="user_name" property="userName"/>
+        <result column="user_password" property="userPassword"/>
+        <result column="user_phone" property="userPhone"/>
+        <result column="user_email" property="userEmail"/>
+        <result column="user_type" property="userType"/>
+    </resultMap>
+
+    <select id="findUserById" resultMap="User">
+        select * from user where user_id = #{userId};
     </select>
+
+    <select id="findAllUsers" resultMap="User">
+        select * from user;
+    </select>
+
+    <select id="findUserByPhone" resultMap="User">
+        select * from user where user_phone = #{userPhone};
+    </select>
+
 </mapper>
