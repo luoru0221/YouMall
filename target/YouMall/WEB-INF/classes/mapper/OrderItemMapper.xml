@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.luoru.mapper.OrderItemMapper">
+
+    <resultMap id="OrderItem" type="com.luoru.pojo.OrderItem">
+        <id column="order_item_id" property="orderItemId"/>
+        <result column="order_item_order_id" property="orderItemOrderId"/>
+        <result column="order_item_number" property="orderItemNumber"/>
+        <result column="order_item_product_id" property="orderItemProductId"/>
+        <result column="order_item_product_amount" property="orderItemProductAmount"/>
+    </resultMap>
+
+
+
+
+</mapper>

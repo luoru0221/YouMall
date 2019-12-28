@@ -9,11 +9,9 @@ public class Cart {
 
     private int cartId;  //购物车Id
     private int userId;  //用户Id
-    private int productId;  //商品Id
+    private Product product;  //商品
     private int productNumber;  //商品数量
-    private String productName;  //商品名称
-    private String productImage;  //商品图片地址
-    private double productPrice;  //商品价格
+
 
     public int getCartId() {
         return cartId;
@@ -31,12 +29,12 @@ public class Cart {
         this.userId = userId;
     }
 
-    public int getProductId() {
-        return productId;
+    public Product getProduct() {
+        return product;
     }
 
-    public void setProductId(int productId) {
-        this.productId = productId;
+    public void setProduct(Product product) {
+        this.product = product;
     }
 
     public int getProductNumber() {
@@ -47,40 +45,13 @@ public class Cart {
         this.productNumber = productNumber;
     }
 
-    public String getProductName() {
-        return productName;
-    }
-
-    public void setProductName(String productName) {
-        this.productName = productName;
-    }
-
-    public String getProductImage() {
-        return productImage;
-    }
-
-    public void setProductImage(String productImage) {
-        this.productImage = productImage;
-    }
-
-    public double getProductPrice() {
-        return productPrice;
-    }
-
-    public void setProductPrice(double productPrice) {
-        this.productPrice = productPrice;
-    }
-
     @Override
     public String toString() {
         return "Cart{" +
                 "cartId=" + cartId +
                 ", userId=" + userId +
-                ", productId=" + productId +
+                ", product=" + product +
                 ", productNumber=" + productNumber +
-                ", productName='" + productName + '\'' +
-                ", productImage='" + productImage + '\'' +
-                ", productPrice=" + productPrice +
                 '}';
     }
 }

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.luoru.mapper.OrderMapper">
+
+    <resultMap id="Order" type="com.luoru.pojo.Order">
+        <id column="order_id" property="orderId"/>
+        <result column="order_user_id" property="orderUserId"/>
+        <result column="order_number" property="orderNumber"/>
+        <result column="order_user_name" property="orderUserName"/>
+        <result column="order_user_address" property="orderUserAddress"/>
+        <result column="order_user_phone" property="orderUserPhone"/>
+        <result column="order_user_email" property="orderUserEmail"/>
+        <result column="order_money" property="orderMoney"/>
+        <result column="order_time" property="orderTIme"/>
+        <result column="order_type" property="orderType"/>
+        <collection property="orderItems" ofType="com.luoru.pojo.OrderItem">
+            <id column="order_item_id" property="orderItemId"/>
+            <result column="order_item_order_id" property="orderItemOrderId"/>
+            <result column="order_item_number" property="orderItemNumber"/>
+            <result column="order_item_product_id" property="orderItemProductId"/>
+            <result column="order_item_product_amount" property="orderItemProductAmount"/>
+        </collection>
+    </resultMap>
+
+    <insert id="insertOrder" useGeneratedKeys="true" keyProperty="orderId" parameterType="com.luoru.pojo.Order">
+        insert into orders
+        (order_user_id,order_number,order_user_name,order_user_address,order_user_phone,order_user_email,order_money,order_type)
+        values
+        (#{orderUserId},#{orderNumber},#{orderUserName},#{orderUserAddress},#{orderUserPhone},#{orderUserPhone},#{orderUserEmail},#{orderMoney},#{orderType});
+    </insert>
+
+    <select id="findAllOrderByUserId" resultMap="Order">
+        select * from
+        orders,orderitem
+        where
+        orders.order_id = orderitem.order_item_order_id
+        and
+        orders.order_user_id = #{userId};
+    </select>
+
+
+</mapper>

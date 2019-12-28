@@ -19,4 +19,23 @@ public interface CartMapper {
      * @return 该用户的购物车信息
      */
     ArrayList<Cart> findCartByUserId(int userId);
+
+    /**
+     * 添加商品到购物车
+     * @param cart 购物车
+     */
+    void addProductToCart(Cart cart);
+
+    /**
+     * 查询数据库是否已经存在该购物车
+     * @param cart 需查询的购物车
+     * @return 存在返回该购物车，否则返回null
+     */
+    Cart findCartByCart(Cart cart);
+
+    /**
+     * 修改购物车中的商品数量
+     * @param cart 待修改的购物车
+     */
+    void addCartProductNumber(Cart cart);
 }

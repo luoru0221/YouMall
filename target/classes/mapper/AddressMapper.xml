@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.luoru.mapper.AddressMapper">
+
+    <resultMap id="Address" type="com.luoru.pojo.Address">
+        <id column="address_id" property="addressId"/>
+        <result column="user_id" property="userId"/>
+        <result column="province" property="province"/>
+        <result column="city" property="city"/>
+        <result column="county" property="county"/>
+        <result column="full_address" property="fullAddress"/>
+        <result column="receive_user_name" property="receiveUserName"/>
+        <result column="receive_user_phone" property="receiveUserPhone"/>
+        <result column="receive_user_email" property="receiveUserEmail"/>
+    </resultMap>
+
+    <select id="findAddressByUserId" resultMap="Address">
+        select * from
+        address
+        WHERE
+        user_id=#{userId};
+    </select>
+
+    <insert id="insertAddress" useGeneratedKeys="true" keyProperty="addressId" parameterType="com.luoru.pojo.Address">
+        insert into
+        address(user_id,province,city,county,full_address,receive_user_name,receive_user_phone,receive_user_email)
+        values
+        (#{userId},#{province},#{city},#{county},#{fullAddress},#{receiveUserName},#{receiveUserPhone},#{receiveUserEmail});
+    </insert>
+
+    <update id="updateAddress" parameterType="com.luoru.pojo.Address">
+        update address set
+        province = #{province},
+        city = #{city},
+        county = #{county},
+        full_address = #{fullAddress},
+        receive_user_name = #{receiveUserName},
+        receive_user_phone = #{receiveUserPhone},
+        receive_user_email = #{receiveUserEmail}
+        where
+        address_id = #{addressId};
+    </update>
+
+    <delete id="deleteAddress" parameterType="com.luoru.pojo.Address">
+        delete from
+        address
+        where
+        address_id = #{addressId};
+    </delete>
+
+    <select id="findDefaultAddress" resultType="java.lang.Integer">
+        select address_id from
+        defaultaddress
+        where user_id = #{userId};
+    </select>
+
+    <update id="updateDefaultAddress" >
+        update defaultaddress set
+        address_id = #{addressId}
+        where user_id = #{userId};
+    </update>
+
+</mapper>
