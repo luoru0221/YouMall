@@ -32,4 +32,11 @@
         user_phone = #{userPhone};
     </select>
 
+    <select id="findUser" resultMap="User">
+        select * from
+        users
+        where
+        user_phone = #{userPhone} and user_password = #{userPassword};
+    </select>
+
 </mapper>

@@ -18,7 +18,7 @@ public class Order {
     private String orderUserPhone;  //订单收件人手机
     private String orderUserEmail;  //订单收件人邮箱
     private double orderMoney;  //订单总价
-    private Date orderTime;  //订单时间
+    private String orderTime;  //订单时间
     private int orderType;  //订单状态
     private ArrayList<OrderItem> orderItems;  //订单项
 
@@ -86,11 +86,11 @@ public class Order {
         this.orderMoney = orderMoney;
     }
 
-    public Date getOrderTime() {
+    public String getOrderTime() {
         return orderTime;
     }
 
-    public void setOrderTime(Date orderTime) {
+    public void setOrderTime(String orderTime) {
         this.orderTime = orderTime;
     }
 

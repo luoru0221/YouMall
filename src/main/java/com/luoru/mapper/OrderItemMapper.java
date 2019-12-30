@@ -1,5 +1,6 @@
 package com.luoru.mapper;
 
+import com.luoru.pojo.OrderItem;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -10,6 +11,11 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface OrderItemMapper {
 
-    void insertOrderItem();
+    /**
+     * 添加订单项
+     * @param orderItem 需添加的订单项
+     * @return SQL执行状态
+     */
+    int insertOrderItem(OrderItem orderItem);
 
 }

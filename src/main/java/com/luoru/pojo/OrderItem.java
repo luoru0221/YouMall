@@ -12,6 +12,15 @@ public class OrderItem {
     private String orderItemNumber; //订单项编号
     private int orderItemProductId; //商品Id
     private int orderItemProductAmount;//商品数量
+    private Product orderItemProduct; //商品
+
+    public Product getOrderItemProduct() {
+        return orderItemProduct;
+    }
+
+    public void setOrderItemproduct(Product orderItemProduct) {
+        this.orderItemProduct = orderItemProduct;
+    }
 
     public int getOrderItemId() {
         return orderItemId;
@@ -61,6 +70,7 @@ public class OrderItem {
                 ", orderItemNumber='" + orderItemNumber + '\'' +
                 ", orderItemProductId=" + orderItemProductId +
                 ", orderItemProductAmount=" + orderItemProductAmount +
+                ", orderItemProduct=" + orderItemProduct +
                 '}';
     }
 

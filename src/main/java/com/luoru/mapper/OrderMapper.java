@@ -17,15 +17,16 @@ public interface OrderMapper {
     /**
      * 添加订单
      * @param order 待添加的订单
+     * @return SQL执行状态码
      */
-    void insertOrder(Order order);
+    int insertOrder(Order order);
 
     /**
      * 根据UserId查询所有订单
      * @param UserId 用户的Id
      * @return 该用户的所有订单
      */
-    ArrayList<Order> findAllOrderByUserId(int UserId);
+    ArrayList<Order> findAllOrders(int UserId);
 
 
 }

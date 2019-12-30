@@ -33,4 +33,6 @@ public interface UserMapper {
      */
     User findUserByPhone(String userPhone);
 
+    User findUser(User user);
+
 }

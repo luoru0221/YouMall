@@ -11,9 +11,9 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 
 /**
- *  @author: Luoru
- *  @Date: 2019/12/21 13:47
- *  @Description: Cart业务层
+ * @author: Luoru
+ * @Date: 2019/12/21 13:47
+ * @Description: Cart业务层
  */
 @Service("cartService")
 public class CartServiceImpl implements CartService {
@@ -32,16 +32,21 @@ public class CartServiceImpl implements CartService {
         Cart byCart = cartMapper.findCartByCart(cart);
         int cartId;
 
-        if(byCart==null){  //购物车不存在
+        if (byCart == null) {  //购物车不存在
             cartMapper.addProductToCart(cart);
             //新增记录的主键已经返回到cart.cartId中
             cartId = cart.getCartId();
-        }
-        else{  //购物车已存在
-            cart.setProductNumber(cart.getProductNumber()+byCart.getProductNumber());
+        } else {  //购物车已存在
+            cart.setProductNumber(cart.getProductNumber() + byCart.getProductNumber());
             cartMapper.addCartProductNumber(cart);
             cartId = byCart.getCartId();
         }
         return cartId;
+    }
+
+    @Override
+    public boolean deleteCart(Cart cart) {
+        int type = cartMapper.deleteCartByCartId(cart.getCartId());
+        return type == 1;
     }
 }

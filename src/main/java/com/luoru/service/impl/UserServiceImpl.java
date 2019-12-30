@@ -7,9 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
- *  @author: Luoru
- *  @Date: 2019/12/21 13:47
- *  @Description: User业务层
+ * @author: Luoru
+ * @Date: 2019/12/21 13:47
+ * @Description: User业务层
  */
 @Service("userService")
 public class UserServiceImpl implements com.luoru.service.UserService {
@@ -20,11 +20,8 @@ public class UserServiceImpl implements com.luoru.service.UserService {
 
     @Override
     public User userLogin(User user) {
-        User rightUser = userMapper.findUserByPhone(user.getUserPhone());
-        String password = Md5.toMd5(user.getUserPassword());
-        if(rightUser != null && rightUser.getUserPassword().equals(password)){
-            return rightUser;
-        }
-        return null;
+        String pwd = Md5.toMd5(user.getUserPassword());
+        user.setUserPassword(pwd);
+        return userMapper.findUser(user);
     }
 }

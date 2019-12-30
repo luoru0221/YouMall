@@ -42,7 +42,7 @@ public class AddressController {
      */
     @ResponseBody
     @RequestMapping(path = "/myAll")
-    public ArrayList<Address> myAllAddress(int userId){
+    public ArrayList<Address> myAllAddress(Integer userId){
         return addressService.getMyAllAddress(userId);
     }
 
@@ -75,7 +75,7 @@ public class AddressController {
      */
     @ResponseBody
     @RequestMapping(path = "/default")
-    public int findUserDefaultAddress(int userId){
+    public int findUserDefaultAddress(Integer userId){
         return addressService.findDefaultAddress(userId);
     }
 

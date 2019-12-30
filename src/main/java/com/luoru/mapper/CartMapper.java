@@ -38,4 +38,11 @@ public interface CartMapper {
      * @param cart 待修改的购物车
      */
     void addCartProductNumber(Cart cart);
+
+    /**
+     * 根据购物车的Id删除购物车
+     * @param cartId 购物车Id
+     * @return SQL执行状态
+     */
+    int deleteCartByCartId(int cartId);
 }
