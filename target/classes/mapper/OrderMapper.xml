@@ -13,7 +13,7 @@
         <result column="order_user_phone" property="orderUserPhone"/>
         <result column="order_user_email" property="orderUserEmail"/>
         <result column="order_money" property="orderMoney"/>
-        <result column="order_time" property="orderTIme"/>
+        <result column="order_time" property="orderTime"/>
         <result column="order_type" property="orderType"/>
         <collection property="orderItems" ofType="com.luoru.pojo.OrderItem">
             <id column="order_item_id" property="orderItemId"/>
@@ -21,20 +21,33 @@
             <result column="order_item_number" property="orderItemNumber"/>
             <result column="order_item_product_id" property="orderItemProductId"/>
             <result column="order_item_product_amount" property="orderItemProductAmount"/>
+            <association property="orderItemProduct" javaType="com.luoru.pojo.Product">
+                <id column="product_id" property="productId"/>
+                <result column="product_name" property="productName"/>
+                <result column="product_introduction" property="productIntroduction"/>
+                <result column="product_category" property="productCategory"/>
+                <result column="product_store" property="productStore"/>
+                <result column="product_image" property="productImage"/>
+                <result column="product_stock" property="productStock"/>
+                <result column="product_price" property="productPrice"/>
+                <result column="is_shelves" property="isShelves"/>
+            </association>
         </collection>
     </resultMap>
 
     <insert id="insertOrder" useGeneratedKeys="true" keyProperty="orderId" parameterType="com.luoru.pojo.Order">
         insert into orders
-        (order_user_id,order_number,order_user_name,order_user_address,order_user_phone,order_user_email,order_money,order_type)
+        (order_user_id,order_number,order_user_name,order_user_address,order_user_phone,order_user_email,order_money,order_time,order_type)
         values
-        (#{orderUserId},#{orderNumber},#{orderUserName},#{orderUserAddress},#{orderUserPhone},#{orderUserPhone},#{orderUserEmail},#{orderMoney},#{orderType});
+        (#{orderUserId},#{orderNumber},#{orderUserName},#{orderUserAddress},#{orderUserPhone},#{orderUserEmail},#{orderMoney},#{orderTime},#{orderType});
     </insert>
 
-    <select id="findAllOrderByUserId" resultMap="Order">
+    <select id="findAllOrders" resultMap="Order">
         select * from
-        orders,orderitem
+        orders,orderitem,product
         where
+        orderitem.order_item_product_id = product.product_id
+        and
         orders.order_id = orderitem.order_item_order_id
         and
         orders.order_user_id = #{userId};

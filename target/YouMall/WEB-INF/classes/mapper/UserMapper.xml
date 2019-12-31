@@ -32,4 +32,18 @@
         user_phone = #{userPhone};
     </select>
 
+    <select id="findUser" resultMap="User">
+        select * from
+        users
+        where
+        user_phone = #{userPhone} and user_password = #{userPassword};
+    </select>
+
+    <insert id="insertUser" keyProperty="userId" useGeneratedKeys="true" parameterType="com.luoru.pojo.User">
+        insert into users
+        (user_name,user_password,user_phone,user_email,user_type)
+        values
+        (#{userName},#{userPassword},#{userPhone},#{userEmail},#{userType});
+    </insert>
+
 </mapper>

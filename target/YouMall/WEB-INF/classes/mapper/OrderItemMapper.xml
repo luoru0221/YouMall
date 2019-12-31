@@ -12,6 +12,12 @@
         <result column="order_item_product_amount" property="orderItemProductAmount"/>
     </resultMap>
 
+    <insert id="insertOrderItem" useGeneratedKeys="true" keyProperty="orderItemId" parameterType="com.luoru.pojo.OrderItem">
+        insert into orderitem
+        (order_item_order_id,order_item_number,order_item_product_id,order_item_product_amount)
+        values
+        (#{orderItemOrderId},#{orderItemNumber},#{orderItemProductId},#{orderItemProductAmount});
+    </insert>
 
 
 

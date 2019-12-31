@@ -39,12 +39,22 @@ public class AddressServiceImpl implements AddressService {
 
     @Override
     public int findDefaultAddress(int userId) {
-        return addressMapper.findDefaultAddress(userId);
+        Integer defaultAddress = addressMapper.findDefaultAddress(userId);
+        if (defaultAddress == null) {
+            return 0;
+        }
+        return defaultAddress;
     }
 
     @Override
     public boolean updateDefaultAddress(int userId, int addressId) {
-        int type = addressMapper.updateDefaultAddress(userId, addressId);
+        Integer defaultAddress = addressMapper.findDefaultAddress(userId);
+        int type;
+        if (defaultAddress != null) {
+            type = addressMapper.updateDefaultAddress(userId, addressId);
+        }else {
+            type = addressMapper.insertDefaultAddress(userId,addressId);
+        }
         return type == 1;
     }
 }

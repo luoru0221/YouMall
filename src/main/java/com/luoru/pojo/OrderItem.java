@@ -1,11 +1,13 @@
 package com.luoru.pojo;
 
+import java.io.Serializable;
+
 /**
  * @author: Luoru
  * @Date: 2019/12/27 0:36
  * @Description: 订单项实体类
  */
-public class OrderItem {
+public class OrderItem implements Serializable {
 
     private int orderItemId;  //订单项Id
     private int orderItemOrderId; //订单Id

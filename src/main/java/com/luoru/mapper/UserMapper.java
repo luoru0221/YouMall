@@ -33,6 +33,18 @@ public interface UserMapper {
      */
     User findUserByPhone(String userPhone);
 
+    /**
+     * 根据手机号查询用户信息
+     * @param user User对象
+     * @return 查询到返回的结果
+     */
     User findUser(User user);
+
+    /**
+     * 添加用户
+     * @param user 待添加的用户
+     * @return SQL执行状态
+     */
+    int insertUser(User user);
 
 }

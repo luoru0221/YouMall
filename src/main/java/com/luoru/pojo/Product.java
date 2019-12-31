@@ -1,11 +1,13 @@
 package com.luoru.pojo;
 
+import java.io.Serializable;
+
 /**
  *  @author: Luoru
  *  @Date: 2019/12/8 15:16
  *  @Description: 商品实体类
  */
-public class Product {
+public class Product implements Serializable {
 
     private int productId;
     private String productName;

@@ -62,4 +62,10 @@
         where user_id = #{userId};
     </update>
 
+    <insert id="insertDefaultAddress">
+        insert into
+        defaultaddress(address_id,user_id)
+        values (#{addressId},#{userId});
+    </insert>
+
 </mapper>

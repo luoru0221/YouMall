@@ -1,11 +1,13 @@
 package com.luoru.pojo;
 
+import java.io.Serializable;
+
 /**
  *  @author: Luoru
  *  @Date: 2019/12/8 15:16
  *  @Description: 用户实体类
  */
-public class User {
+public class User implements Serializable {
 
     private int userId;
     private String userName;

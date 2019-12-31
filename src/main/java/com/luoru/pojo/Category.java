@@ -1,5 +1,6 @@
 package com.luoru.pojo;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
 /**
@@ -7,7 +8,7 @@ import java.util.ArrayList;
  *  @Date: 2019/12/11 14:30
  *  @Description: 商品分类实体类
  */
-public class Category {
+public class Category implements Serializable {
     private int categoryId;
     private String categoryName;
     private int categoryFid;

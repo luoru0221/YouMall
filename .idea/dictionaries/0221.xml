@@ -2,8 +2,18 @@
   <dictionary name="罗汝0221">
     <words>
       <w>alibaba</w>
+      <w>bais</w>
+      <w>baos</w>
       <w>fastjson</w>
+      <w>gener</w>
+      <w>jedis</w>
+      <w>keeptime</w>
       <w>luoru</w>
+      <w>maxtotal</w>
+      <w>maxwaitmillis</w>
+      <w>sercet</w>
+      <w>testonborrow</w>
+      <w>usepool</w>
       <w>youmall</w>
     </words>
   </dictionary>

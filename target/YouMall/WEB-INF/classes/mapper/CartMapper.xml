@@ -56,4 +56,10 @@
         product_id = #{product.productId};
     </update>
 
+    <delete id="deleteCartByCartId">
+        delete from cart
+        where
+        cart_id = #{cartId};
+    </delete>
+
 </mapper>

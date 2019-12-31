@@ -1,11 +1,13 @@
 package com.luoru.pojo;
 
+import java.io.Serializable;
+
 /**
  *  @author: Luoru
  *  @Date: 2019/12/16 20:36
  *  @Description: 购物车实体类
  */
-public class Cart {
+public class Cart implements Serializable {
 
     private int cartId;  //购物车Id
     private int userId;  //用户Id

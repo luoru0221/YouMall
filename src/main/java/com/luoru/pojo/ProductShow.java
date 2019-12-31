@@ -1,5 +1,6 @@
 package com.luoru.pojo;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
 /**
@@ -7,7 +8,7 @@ import java.util.ArrayList;
  *  @Date: 2019/12/22 23:58
  *  @Description: 首页商品展示
  */
-public class ProductShow {
+public class ProductShow implements Serializable {
 
     private String showGroupName;
     private ArrayList<Product> products;

@@ -51,7 +51,7 @@ public interface AddressMapper {
      * @param userId 用户Id
      * @return 该用户的默认地址Id
      */
-    int findDefaultAddress(int userId);
+    Integer findDefaultAddress(int userId);
 
     /**
      * 修改用户的默认地址
@@ -61,5 +61,14 @@ public interface AddressMapper {
      * @return SQL执行状态(0执行失败 1执行成功)
      */
     int updateDefaultAddress(@Param("userId") int userId, @Param("addressId") int addressId);
+
+    /**
+     * 添加默认地址
+     *
+     * @param userId    用户Id
+     * @param addressId 默认地址
+     * @return SQL执行状态
+     */
+    int insertDefaultAddress(@Param("userId") int userId, @Param("addressId") int addressId);
 
 }

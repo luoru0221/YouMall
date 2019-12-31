@@ -1,5 +1,6 @@
 package com.luoru.pojo;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
 
@@ -8,7 +9,7 @@ import java.util.Date;
  *  @Date: 2019/12/27 0:36
  *  @Description: 订单实体类
  */
-public class Order {
+public class Order implements Serializable {
 
     private int orderId;  //订单Id
     private int orderUserId;  //用户Id

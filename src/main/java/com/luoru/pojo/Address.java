@@ -1,11 +1,13 @@
 package com.luoru.pojo;
 
+import java.io.Serializable;
+
 /**
  *  @author: Luoru
  *  @Date: 2019/12/27 10:58
  *  @Description: 地址实体类
  */
-public class Address {
+public class Address implements Serializable {
 
     private int addressId;  //地址Id
     private int userId; //创建该地址的用户
