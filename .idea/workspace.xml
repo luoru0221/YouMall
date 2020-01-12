@@ -7,153 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5236cf8e-edb4-4be7-af26-e24244726344" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luoru/service/impl/RedisUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luoru/utils/JWTUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luoru/utils/ResponseMsg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luoru/utils/SendSms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luoru/utils/SerializeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/applicationContext-redis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/jedis.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/applicationContext-redis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/controller/OrderController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/service/OrderItemService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/service/OrderService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/service/impl/OrderItemServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/service/impl/OrderServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/service/impl/RedisUtil$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/service/impl/RedisUtil$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/service/impl/RedisUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/utils/FormatterTime.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/utils/JWTUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/utils/Number.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/utils/ResponseMsg.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/utils/SendSms.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/utils/SerializeUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/jedis.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/lib/activation-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/lib/aliyun-java-sdk-core-4.0.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/lib/bcprov-jdk15on-1.55.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/lib/commons-codec-1.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/lib/commons-pool2-2.6.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/lib/httpclient-4.5.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/lib/httpcore-4.4.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/lib/java-jwt-3.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/lib/jaxb-api-2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/lib/jaxb-core-2.1.14.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/lib/jaxb-impl-2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/lib/jedis-3.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/lib/jjwt-0.7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/lib/slf4j-api-1.7.26.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/lib/spring-context-support-5.2.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/lib/spring-data-commons-2.2.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/lib/spring-data-keyvalue-2.2.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/lib/spring-data-redis-2.2.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/lib/spring-oxm-5.2.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/lib/stax-api-1.0-2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/luoru/controller/OrderController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/luoru/service/OrderItemService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/luoru/service/OrderService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/luoru/service/impl/OrderItemServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/luoru/service/impl/OrderServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/luoru/service/impl/RedisUtil$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/luoru/service/impl/RedisUtil$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/luoru/service/impl/RedisUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/luoru/utils/FormatterTime.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/luoru/utils/JWTUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/luoru/utils/Number.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/luoru/utils/ResponseMsg.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/luoru/utils/SendSms.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/luoru/utils/SerializeUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/0221.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/0221.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luoru/mapper/StoreMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luoru/pojo/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luoru/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luoru/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luoru/mapper/AddressMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luoru/mapper/AddressMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luoru/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luoru/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luoru/pojo/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luoru/pojo/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luoru/pojo/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luoru/pojo/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luoru/pojo/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luoru/pojo/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luoru/pojo/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luoru/pojo/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luoru/pojo/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luoru/pojo/OrderItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luoru/pojo/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luoru/pojo/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luoru/pojo/ProductShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luoru/pojo/ProductShow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luoru/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luoru/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luoru/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luoru/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luoru/service/impl/AddressServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luoru/service/impl/AddressServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luoru/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luoru/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/mapper/AddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/mapper/AddressMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/controller/AddressController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/controller/AddressController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/controller/CartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/controller/CartController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/mapper/AddressMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/mapper/AddressMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/mapper/CartMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/mapper/CartMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/mapper/OrderItemMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/mapper/OrderItemMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/mapper/OrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/mapper/OrderMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/pojo/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/pojo/Address.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/pojo/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/pojo/Cart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/pojo/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/pojo/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/pojo/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/pojo/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/pojo/OrderItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/pojo/OrderItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/pojo/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/pojo/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/pojo/ProductShow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/pojo/ProductShow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/service/CartService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/service/CartService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/service/impl/AddressServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/service/impl/AddressServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/service/impl/CartServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/service/impl/CartServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/mapper/AddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/mapper/AddressMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/mapper/CartMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/mapper/CartMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/mapper/OrderItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/mapper/OrderItemMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/mapper/OrderMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/lib/aliyun-java-sdk-core-4.4.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/lib/aliyun-java-sdk-ecs-4.17.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/lib/commons-codec-1.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/lib/gson-2.8.5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/lib/gson-2.8.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/lib/httpclient-4.5.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/lib/httpcore-4.4.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/lib/ini4j-0.5.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/lib/org.jacoco.agent-0.8.3-runtime.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/lib/slf4j-api-1.7.28.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luoru/controller/AddressController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luoru/controller/AddressController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luoru/controller/CartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luoru/controller/CartController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luoru/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luoru/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luoru/mapper/AddressMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luoru/mapper/AddressMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luoru/mapper/CartMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luoru/mapper/CartMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luoru/mapper/OrderItemMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luoru/mapper/OrderItemMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luoru/mapper/OrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luoru/mapper/OrderMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luoru/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luoru/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luoru/pojo/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luoru/pojo/Address.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luoru/pojo/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luoru/pojo/Cart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luoru/pojo/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luoru/pojo/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luoru/pojo/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luoru/pojo/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luoru/pojo/OrderItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luoru/pojo/OrderItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luoru/pojo/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luoru/pojo/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luoru/pojo/ProductShow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luoru/pojo/ProductShow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luoru/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luoru/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luoru/service/CartService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luoru/service/CartService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luoru/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luoru/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luoru/service/impl/AddressServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luoru/service/impl/AddressServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luoru/service/impl/CartServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luoru/service/impl/CartServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luoru/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luoru/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/AddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/AddressMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/CartMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/CartMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/OrderItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/OrderItemMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/OrderMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YouMall/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/YouMall.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/YouMall.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/luoru/service/impl/UserServiceTest.class" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -176,56 +41,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5370">
-              <caret line="179" column="24" selection-start-line="179" selection-start-column="24" selection-end-line="179" selection-end-column="24" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/luoru/utils/JWTUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-101">
-              <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/luoru/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-27">
-              <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/luoru/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -242,63 +57,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/luoru/mapper/CartMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resource/mapper/OrderItemMapper" />
-        <option value="$PROJECT_DIR$/src/main/resource/mapper/CartMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resource/mapper/CategoryMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resource/mapper/ProductMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luoru/mapper/OrderItemMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luoru/pojo/UserAddress.java" />
-        <option value="$PROJECT_DIR$/src/main/resource/mapper/OrderItemMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resource/spring-mvc" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luoru/service/OrderItemService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luoru/service/OrderService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luoru/service/impl/OrderItemServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resource/mapper/OrderMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luoru/mapper/OrderMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luoru/controller/OrderController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luoru/service/impl/OrderServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luoru/controller/CartController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luoru/controller/AddressController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luoru/pojo/Address.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luoru/pojo/Cart.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luoru/pojo/Category.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luoru/pojo/Order.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luoru/pojo/OrderItem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luoru/pojo/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luoru/pojo/ProductShow.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luoru/pojo/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luoru/service/impl/RedisService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luoru/service/impl/RedisServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luoru/utils/SerializeUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luoru/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luoru/service/redis/RedisUtil.java" />
-        <option value="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/resource/spring-redis.xml" />
-        <option value="$PROJECT_DIR$/src/main/resource/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/resource/jedis.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/applicationContext-redis.xml" />
-        <option value="$PROJECT_DIR$/src/main/resource/applicationContext-redis.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luoru/service/impl/RedisUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luoru/utils/ResponseMsg.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luoru/utils/SendSms.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luoru/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luoru/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luoru/service/AddressService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luoru/mapper/AddressMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resource/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resource/mapper/AddressMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luoru/service/impl/AddressServiceImpl.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luoru/utils/JWTUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luoru/controller/UserController.java" />
-      </list>
-    </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -322,47 +80,14 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="YouMall Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
   <component name="MavenRunner">
     <option name="jreName" value="#JAVA_HOME" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="984" />
-    <option name="height" value="1044" />
-  </component>
+  <component name="ProjectId" id="1WCK4QlYXCS2e1c0xy2rcpDSGyh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <flattenPackages ProjectPane="false" />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="YouMall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="YouMall" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
@@ -374,13 +99,13 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/target/YouMall/WEB-INF/classes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.19127849" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -407,18 +132,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\MyProject\YouMall\src\main\webapp" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.431" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.431" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
@@ -557,6 +270,29 @@
       </method>
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.014913008" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SpringConfigurationTabSettings">
     <option name="sortAlpha" value="true" />
   </component>
@@ -628,7 +364,14 @@
       <workItem from="1577719728426" duration="10615000" />
       <workItem from="1577751637549" duration="11603000" />
       <workItem from="1577770248346" duration="2939000" />
-      <workItem from="1577781107583" duration="3369000" />
+      <workItem from="1577781107583" duration="3648000" />
+      <workItem from="1577798489404" duration="230000" />
+      <workItem from="1577798964607" duration="1350000" />
+      <workItem from="1578534845043" duration="551000" />
+      <workItem from="1578535440366" duration="444000" />
+      <workItem from="1578647947126" duration="896000" />
+      <workItem from="1578704723523" duration="4432000" />
+      <workItem from="1578790693871" duration="9984000" />
     </task>
     <task id="LOCAL-00001" summary="the second commit">
       <created>1577236695987</created>
@@ -644,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577667049013</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2019/12/31 短信验证注册">
+      <created>1577785479648</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577785479649</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -679,9 +429,6 @@
       <configuration name="UserServiceTest.findUserByIdTest" configurationId="JUnit" />
     </history-entry>
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="273241000" />
-  </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -690,45 +437,6 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33063865" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.497979" weight="0.60390764" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4995958" weight="0.3285968" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4995958" weight="0.3285968" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.502021" side_tool="true" weight="0.75666076" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.3285968" />
-      <window_info anchor="bottom" id="Database Changes" order="11" sideWeight="0.4995958" weight="0.3285968" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4995958" weight="0.6980462" />
-      <window_info anchor="bottom" id="Application Servers" order="13" sideWeight="0.4995958" weight="0.330373" />
-      <window_info anchor="bottom" id="Spring" order="14" />
-      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.4995958" weight="0.6021314" />
-      <window_info anchor="bottom" id="Database Console" order="16" weight="0.24333926" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.45917544" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.34114793" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -749,20 +457,7 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -786,546 +481,125 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="the second commit" />
     <MESSAGE value="2019/12/30  修好崩掉的bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019/12/30  修好崩掉的bug" />
+    <MESSAGE value="2019/12/31 短信验证注册" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019/12/31 短信验证注册" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luoru/pojo/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luoru/pojo/Cart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luoru/pojo/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-oxm/5.2.0.RELEASE/spring-oxm-5.2.0.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="42" column="17" lean-forward="true" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/5.2.0.RELEASE/spring-context-support-5.2.0.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/com.luoru:YouMall:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.luoru:YouMall:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">com.luoru:YouMall:1.0-SNAPSHOT</node>
-            <node x="" y="">junit:junit:jar:4.11</node>
-            <node x="" y="">junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3</node>
-            <node x="" y="">org.springframework:spring-webmvc:jar:5.1.8.RELEASE</node>
-            <node x="" y="">org.springframework:spring-webmvc:jar:5.1.8.RELEASE/org.springframework:spring-context:jar:5.1.8.RELEASE</node>
-            <node x="" y="">org.springframework:spring-webmvc:jar:5.1.8.RELEASE/org.springframework:spring-web:jar:5.1.8.RELEASE</node>
-            <node x="" y="">org.mybatis:mybatis-spring:jar:2.0.1</node>
-            <node x="" y="">org.mybatis:mybatis:jar:3.5.3</node>
-            <node x="" y="">org.springframework:spring-beans:jar:5.1.8.RELEASE</node>
-            <node x="" y="">org.springframework:spring-aop:jar:5.1.8.RELEASE</node>
-            <node x="" y="">org.springframework:spring-core:jar:5.1.8.RELEASE</node>
-            <node x="" y="">org.springframework:spring-core:jar:5.1.8.RELEASE/org.springframework:spring-jcl:jar:5.1.8.RELEASE</node>
-            <node x="" y="">org.springframework:spring-expression:jar:5.1.8.RELEASE</node>
-            <node x="" y="">org.springframework:spring-tx:jar:5.1.8.RELEASE</node>
-            <node x="" y="">org.springframework:spring-jdbc:jar:5.1.8.RELEASE</node>
-            <node x="" y="">org.springframework.data:spring-data-redis:jar:2.2.0.RELEASE</node>
-            <node x="" y="">org.springframework.data:spring-data-redis:jar:2.2.0.RELEASE/org.springframework.data:spring-data-keyvalue:jar:2.2.0.RELEASE</node>
-            <node x="" y="">org.springframework.data:spring-data-redis:jar:2.2.0.RELEASE/org.springframework.data:spring-data-keyvalue:jar:2.2.0.RELEASE/org.springframework.data:spring-data-commons:jar:2.2.0.RELEASE</node>
-            <node x="" y="">org.springframework.data:spring-data-redis:jar:2.2.0.RELEASE/org.springframework.data:spring-data-keyvalue:jar:2.2.0.RELEASE/org.springframework.data:spring-data-commons:jar:2.2.0.RELEASE/org.springframework:spring-core:jar:5.2.0.RELEASE</node>
-            <node x="" y="">org.springframework.data:spring-data-redis:jar:2.2.0.RELEASE/org.springframework.data:spring-data-keyvalue:jar:2.2.0.RELEASE/org.springframework.data:spring-data-commons:jar:2.2.0.RELEASE/org.springframework:spring-beans:jar:5.2.0.RELEASE</node>
-            <node x="" y="">org.springframework.data:spring-data-redis:jar:2.2.0.RELEASE/org.springframework.data:spring-data-keyvalue:jar:2.2.0.RELEASE/org.springframework:spring-context:jar:5.2.0.RELEASE</node>
-            <node x="" y="">org.springframework.data:spring-data-redis:jar:2.2.0.RELEASE/org.springframework.data:spring-data-keyvalue:jar:2.2.0.RELEASE/org.springframework:spring-tx:jar:5.2.0.RELEASE</node>
-            <node x="" y="">org.springframework.data:spring-data-redis:jar:2.2.0.RELEASE/org.springframework:spring-tx:jar:5.1.8.RELEASE</node>
-            <node x="" y="">org.springframework.data:spring-data-redis:jar:2.2.0.RELEASE/org.springframework:spring-oxm:jar:5.2.0.RELEASE</node>
-            <node x="" y="">org.springframework.data:spring-data-redis:jar:2.2.0.RELEASE/org.springframework:spring-oxm:jar:5.2.0.RELEASE/org.springframework:spring-beans:jar:5.1.8.RELEASE</node>
-            <node x="" y="">org.springframework.data:spring-data-redis:jar:2.2.0.RELEASE/org.springframework:spring-oxm:jar:5.2.0.RELEASE/org.springframework:spring-core:jar:5.1.8.RELEASE</node>
-            <node x="" y="">org.springframework.data:spring-data-redis:jar:2.2.0.RELEASE/org.springframework:spring-aop:jar:5.2.0.RELEASE</node>
-            <node x="" y="">org.springframework.data:spring-data-redis:jar:2.2.0.RELEASE/org.springframework:spring-context-support:jar:5.2.0.RELEASE</node>
-            <node x="" y="">org.springframework.data:spring-data-redis:jar:2.2.0.RELEASE/org.springframework:spring-context-support:jar:5.2.0.RELEASE/org.springframework:spring-beans:jar:5.1.8.RELEASE</node>
-            <node x="" y="">org.springframework.data:spring-data-redis:jar:2.2.0.RELEASE/org.springframework:spring-context-support:jar:5.2.0.RELEASE/org.springframework:spring-context:jar:5.1.8.RELEASE</node>
-            <node x="" y="">org.springframework.data:spring-data-redis:jar:2.2.0.RELEASE/org.springframework:spring-context-support:jar:5.2.0.RELEASE/org.springframework:spring-core:jar:5.1.8.RELEASE</node>
-            <node x="" y="">org.springframework.data:spring-data-redis:jar:2.2.0.RELEASE/org.slf4j:slf4j-api:jar:1.7.26</node>
-            <node x="" y="">redis.clients:jedis:jar:3.1.0</node>
-            <node x="" y="">redis.clients:jedis:jar:3.1.0/org.slf4j:slf4j-api:jar:1.7.25</node>
-            <node x="" y="">redis.clients:jedis:jar:3.1.0/org.apache.commons:commons-pool2:jar:2.6.2</node>
-            <node x="" y="">mysql:mysql-connector-java:jar:8.0.13</node>
-            <node x="" y="">mysql:mysql-connector-java:jar:8.0.13/com.google.protobuf:protobuf-java:jar:3.6.1</node>
-            <node x="" y="">com.alibaba:druid:jar:1.1.16</node>
-            <node x="" y="">com.alibaba:fastjson:jar:1.2.58</node>
-            <node x="" y="">com.fasterxml.jackson.core:jackson-databind:jar:2.9.5</node>
-            <node x="" y="">com.fasterxml.jackson.core:jackson-databind:jar:2.9.5/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0</node>
-            <node x="" y="">com.fasterxml.jackson.core:jackson-core:jar:2.9.5</node>
-            <node x="" y="">com.fasterxml.jackson.core:jackson-annotations:jar:2.9.5</node>
-            <node x="" y="">com.aliyun:aliyun-java-sdk-core:jar:4.0.3</node>
-            <node x="" y="">com.aliyun:aliyun-java-sdk-core:jar:4.0.3/com.google.code.gson:gson:jar:2.8.2</node>
-            <node x="" y="">com.aliyun:aliyun-java-sdk-core:jar:4.0.3/org.apache.httpcomponents:httpclient:jar:4.5.3</node>
-            <node x="" y="">com.aliyun:aliyun-java-sdk-core:jar:4.0.3/org.apache.httpcomponents:httpclient:jar:4.5.3/org.apache.httpcomponents:httpcore:jar:4.4.6</node>
-            <node x="" y="">com.aliyun:aliyun-java-sdk-core:jar:4.0.3/org.apache.httpcomponents:httpclient:jar:4.5.3/commons-logging:commons-logging:jar:1.2</node>
-            <node x="" y="">com.aliyun:aliyun-java-sdk-core:jar:4.0.3/org.apache.httpcomponents:httpclient:jar:4.5.3/commons-codec:commons-codec:jar:1.9</node>
-            <node x="" y="">com.aliyun:aliyun-java-sdk-core:jar:4.0.3/javax.xml.bind:jaxb-api:jar:2.1</node>
-            <node x="" y="">com.aliyun:aliyun-java-sdk-core:jar:4.0.3/javax.xml.bind:jaxb-api:jar:2.1/javax.xml.stream:stax-api:jar:1.0-2</node>
-            <node x="" y="">com.aliyun:aliyun-java-sdk-core:jar:4.0.3/javax.xml.bind:jaxb-api:jar:2.1/javax.activation:activation:jar:1.1</node>
-            <node x="" y="">com.aliyun:aliyun-java-sdk-core:jar:4.0.3/com.sun.xml.bind:jaxb-core:jar:2.1.14</node>
-            <node x="" y="">com.aliyun:aliyun-java-sdk-core:jar:4.0.3/com.sun.xml.bind:jaxb-impl:jar:2.1</node>
-            <node x="" y="">com.aliyun:aliyun-java-sdk-core:jar:4.0.3/javax.activation:activation:jar:1.1.1</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.231387808041505" x="411.0" y="311.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luoru/service/impl/RedisServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resource/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.2.0.RELEASE/spring-data-redis-2.2.0.RELEASE.jar!/org/springframework/data/redis/core/ValueOperations.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-639">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/OrderMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/luoru/service/RedisUtil.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luoru/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://SpringLocalModels/module=YouMall">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>SpringLocalModels</ID>
-          <OriginalElement>module=YouMall</OriginalElement>
-          <nodes>
-            <node x="" y="">module=YouMall</node>
-            <node x="" y="">fileset=YouMall/ApplicationContext</node>
-            <node x="" y="">filePath=D:/MyProject/YouMall/src/main/resource/applicationContext.xml</node>
-            <node x="" y="">filePath=D:/MyProject/YouMall/src/main/resource/spring-mybatis</node>
-            <node x="" y="">filePath=D:/MyProject/YouMall/src/main/resource/spring-mvc</node>
-            <node x="" y="">filePath=D:/MyProject/YouMall/src/main/resource/applicationContext-redis.xml</node>
-            <node x="" y="">fileset=YouMall/MVC dispatcherServlet servlet context</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="336.0" y="102.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Show filesets as groups</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/spring-redis.xml" />
-    <entry file="file://$PROJECT_DIR$/target/YouMall/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/spring-mybatis">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/spring-mvc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luoru/service/impl/CartServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.2.0.RELEASE/spring-data-redis-2.2.0.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/jedis1.properties" />
-    <entry file="file://$PROJECT_DIR$/target/YouMall/WEB-INF/classes/jedis.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/YouMall/WEB-INF/classes/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/YouMall/WEB-INF/classes/spring-mvc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/YouMall/WEB-INF/classes/spring-mybatis">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/YouMall/WEB-INF/classes/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/YouMall/WEB-INF/classes/applicationContext-redis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/applicationContext-redis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-341">
-          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="12" column="52" lean-forward="true" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/jedis.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/aliyun/aliyun-java-sdk-core/4.0.3/aliyun-java-sdk-core-4.0.3.jar!/com/aliyuncs/http/HttpMessage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-420">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/aliyun/aliyun-java-sdk-core/4.0.3/aliyun-java-sdk-core-4.0.3.jar!/com/aliyuncs/http/HttpResponse.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/aliyun/aliyun-java-sdk-core/4.0.3/aliyun-java-sdk-core-4.0.3.jar!/com/aliyuncs/CommonResponse.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#690#691#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luoru/utils/ResponseMsg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.2.0.RELEASE/spring-data-redis-2.2.0.RELEASE.jar!/org/springframework/data/redis/connection/RedisStringCommands.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luoru/service/impl/RedisUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luoru/utils/SendSms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luoru/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="65" column="36" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luoru/service/impl/AddressServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5370">
-          <caret line="179" column="24" selection-start-line="179" selection-start-column="24" selection-end-line="179" selection-end-column="24" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luoru/mapper/AddressMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2100">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luoru/service/AddressService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luoru/controller/AddressController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2280">
-          <caret line="90" column="44" selection-start-line="90" selection-start-column="44" selection-end-line="90" selection-end-column="44" />
-          <folding>
-            <element signature="e#1852#1853#0" expanded="true" />
-            <element signature="e#1916#1917#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1410">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/AddressMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luoru/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luoru/utils/SerializeUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luoru/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
-          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.7.0/jjwt-0.7.0.jar!/io/jsonwebtoken/Claims.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-690">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luoru/utils/JWTUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-101">
-          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>YouMall:war exploded</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.15956393" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Web (YouMall)|Web</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.19127849" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.15956393" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.15956393" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring|YouMall</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.19127849" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: Arquillian JUnit:Release</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.19127849" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="WindowStateProjectService">
+    <state x="233" y="0" key="#Tomcat_Server" timestamp="1578648513377">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Tomcat_Server/0.0.1280.680@0.0.1280.680" timestamp="1578648513377" />
+    <state x="334" y="194" width="765" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1578801796745">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="334" y="194" width="765" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1280.680@0.0.1280.680" timestamp="1578801796745" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578648525940">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1578648525940" />
+    <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser" timestamp="1578800646486">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1578800646486" />
+    <state x="488" y="230" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578648241378">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="488" y="230" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1280.680@0.0.1280.680" timestamp="1578648241378" />
+    <state x="222" y="0" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1578648237474">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="222" y="0" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1280.680@0.0.1280.680" timestamp="1578648237474" />
+    <state x="422" y="95" key="FileChooserDialogImpl" timestamp="1578648311613">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="422" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1578648311613" />
+    <state width="549" height="93" key="GridCell.Tab.0.bottom" timestamp="1578806885401">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="549" height="93" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578806885401" />
+    <state width="549" height="93" key="GridCell.Tab.0.center" timestamp="1578806885401">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="549" height="93" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1578806885401" />
+    <state width="549" height="93" key="GridCell.Tab.0.left" timestamp="1578806885400">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="549" height="93" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1578806885400" />
+    <state width="549" height="93" key="GridCell.Tab.0.right" timestamp="1578806885401">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="549" height="93" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1578806885401" />
+    <state width="549" height="93" key="GridCell.Tab.1.bottom" timestamp="1578806885401">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="549" height="93" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578806885401" />
+    <state width="549" height="93" key="GridCell.Tab.1.center" timestamp="1578806885401">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="549" height="93" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1578806885401" />
+    <state width="549" height="93" key="GridCell.Tab.1.left" timestamp="1578806885401">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="549" height="93" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1578806885401" />
+    <state width="549" height="93" key="GridCell.Tab.1.right" timestamp="1578806885401">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="549" height="93" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1578806885401" />
+    <state width="549" height="93" key="GridCell.Tab.2.bottom" timestamp="1578806885401">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="549" height="93" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578806885401" />
+    <state width="549" height="93" key="GridCell.Tab.2.center" timestamp="1578806885401">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="549" height="93" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1578806885401" />
+    <state width="549" height="93" key="GridCell.Tab.2.left" timestamp="1578806885401">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="549" height="93" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1578806885401" />
+    <state width="549" height="93" key="GridCell.Tab.2.right" timestamp="1578806885401">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="549" height="93" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1578806885401" />
+    <state width="1189" height="303" key="GridCell.Tab.3.bottom" timestamp="1578708172652">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1189" height="303" key="GridCell.Tab.3.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578708172652" />
+    <state width="1189" height="303" key="GridCell.Tab.3.center" timestamp="1578708172652">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1189" height="303" key="GridCell.Tab.3.center/0.0.1280.680@0.0.1280.680" timestamp="1578708172652" />
+    <state width="1189" height="303" key="GridCell.Tab.3.left" timestamp="1578708172651">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1189" height="303" key="GridCell.Tab.3.left/0.0.1280.680@0.0.1280.680" timestamp="1578708172651" />
+    <state width="1189" height="303" key="GridCell.Tab.3.right" timestamp="1578708172652">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1189" height="303" key="GridCell.Tab.3.right/0.0.1280.680@0.0.1280.680" timestamp="1578708172652" />
+    <state width="1189" height="303" key="GridCell.Tab.4.bottom" timestamp="1578708171321">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1189" height="303" key="GridCell.Tab.4.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578708171321" />
+    <state width="1189" height="303" key="GridCell.Tab.4.center" timestamp="1578708171321">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1189" height="303" key="GridCell.Tab.4.center/0.0.1280.680@0.0.1280.680" timestamp="1578708171321" />
+    <state width="1189" height="303" key="GridCell.Tab.4.left" timestamp="1578708171321">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1189" height="303" key="GridCell.Tab.4.left/0.0.1280.680@0.0.1280.680" timestamp="1578708171321" />
+    <state width="1189" height="303" key="GridCell.Tab.4.right" timestamp="1578708171321">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1189" height="303" key="GridCell.Tab.4.right/0.0.1280.680@0.0.1280.680" timestamp="1578708171321" />
+    <state x="13" y="0" width="1208" height="680" key="SettingsEditor" timestamp="1578801929009">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="13" y="0" width="1208" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1578801929009" />
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1578790745395">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1578790745395" />
   </component>
 </project>
