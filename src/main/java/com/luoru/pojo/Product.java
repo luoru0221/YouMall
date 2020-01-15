@@ -13,10 +13,10 @@ public class Product implements Serializable {
     private String productName;
     private String productIntroduction;
     private int productCategory;
-    private int productStore;
     private String productImage;
     private int productStock;
     private double productPrice;
+    private int productStoreId;
     private int isShelves;
 
     public int getProductId() {
@@ -51,14 +51,6 @@ public class Product implements Serializable {
         this.productCategory = productCategory;
     }
 
-    public int getProductStore() {
-        return productStore;
-    }
-
-    public void setProductStore(int productStore) {
-        this.productStore = productStore;
-    }
-
     public String getProductImage() {
         return productImage;
     }
@@ -91,6 +83,14 @@ public class Product implements Serializable {
         this.isShelves = isShelves;
     }
 
+    public int getProductStoreId() {
+        return productStoreId;
+    }
+
+    public void setProductStoreId(int productStoreId) {
+        this.productStoreId = productStoreId;
+    }
+
     @Override
     public String toString() {
         return "Product{" +
@@ -98,10 +98,10 @@ public class Product implements Serializable {
                 ", productName='" + productName + '\'' +
                 ", productIntroduction='" + productIntroduction + '\'' +
                 ", productCategory=" + productCategory +
-                ", productStore=" + productStore +
                 ", productImage='" + productImage + '\'' +
                 ", productStock=" + productStock +
                 ", productPrice=" + productPrice +
+                ", productStoreId=" + productStoreId +
                 ", isShelves=" + isShelves +
                 '}';
     }

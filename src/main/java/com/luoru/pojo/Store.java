@@ -10,7 +10,7 @@ public class Store {
     private int storeId;
     private int storeUserId;
     private String storeName;
-    private String storeCompanyName;
+    private String storeType;
     private String storePhone;
     private String storeAddress;
 
@@ -38,12 +38,12 @@ public class Store {
         this.storeName = storeName;
     }
 
-    public String getStoreCompanyName() {
-        return storeCompanyName;
+    public String getStoreType() {
+        return storeType;
     }
 
-    public void setStoreCompanyName(String storeCompanyName) {
-        this.storeCompanyName = storeCompanyName;
+    public void setStoreType(String storeType) {
+        this.storeType = storeType;
     }
 
     public String getStorePhone() {
@@ -68,7 +68,7 @@ public class Store {
                 "storeId=" + storeId +
                 ", storeUserId=" + storeUserId +
                 ", storeName='" + storeName + '\'' +
-                ", storeCompanyName='" + storeCompanyName + '\'' +
+                ", storeCompanyName='" + storeType + '\'' +
                 ", storePhone='" + storePhone + '\'' +
                 ", storeAddress='" + storeAddress + '\'' +
                 '}';

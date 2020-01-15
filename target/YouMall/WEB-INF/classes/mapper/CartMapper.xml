@@ -12,7 +12,7 @@
             <result column="product_name" property="productName"/>
             <result column="product_introduction" property="productIntroduction"/>
             <result column="product_category" property="productCategory"/>
-            <result column="product_store" property="productStore"/>
+            <result column="product_store_id" property="productStoreId"/>
             <result column="product_image" property="productImage"/>
             <result column="product_stock" property="productStock"/>
             <result column="product_price" property="productPrice"/>

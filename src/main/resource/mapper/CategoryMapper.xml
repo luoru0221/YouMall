@@ -17,4 +17,10 @@
         category_fid = #{categoryFid};
     </select>
 
+    <select id="findCategoryById" resultMap="Category">
+        select * from
+        category
+        where category_id = #{categoryId};
+    </select>
+
 </mapper>

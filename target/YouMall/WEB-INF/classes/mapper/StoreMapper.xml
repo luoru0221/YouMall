@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.luoru.mapper.StoreMapper">
+    <resultMap id="Store" type="com.luoru.pojo.Store">
+        <id column="store_id" property="storeId"/>
+        <result column="store_user_id" property="storeUserId"/>
+        <result column="store_name" property="storeName"/>
+        <result column="store_type" property="storeType"/>
+        <result column="store_phone" property="storePhone"/>
+        <result column="store_address" property="storeAddress"/>
+    </resultMap>
+
+    <insert id="insertStore" keyProperty="storeId" useGeneratedKeys="true" parameterType="com.luoru.pojo.Store">
+        insert into store
+        (store_user_id,store_name,store_type,store_phone,store_address)
+        values
+        (#{storeUserId},#{storeName},#{storeType},#{storePhone},#{storeAddress});
+    </insert>
+
+    <select id="findStoreByUserId" resultMap="Store">
+        select * from store
+        where store_user_id = #{userId};
+    </select>
+
+    <update id="updateStore" parameterType="com.luoru.pojo.Store">
+        update store set
+        store_name = #{storeName},
+        store_type = #{storeType},
+        store_phone = #{storePhone},
+        store_address = #{storeAddress}
+        where store_id = #{storeId};
+    </update>
+
+</mapper>

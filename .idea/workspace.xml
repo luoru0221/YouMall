@@ -7,17 +7,66 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5236cf8e-edb4-4be7-af26-e24244726344" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luoru/mapper/StoreMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luoru/pojo/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luoru/controller/StoreController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luoru/service/StoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luoru/service/impl/StoreServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/luoru/utils/ImageUploadUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/mapper/StoreMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/YouMall/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/YouMall.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/YouMall.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/luoru/service/impl/UserServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luoru/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luoru/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luoru/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luoru/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luoru/mapper/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luoru/mapper/CategoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luoru/mapper/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luoru/mapper/ProductMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luoru/mapper/StoreMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luoru/mapper/StoreMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luoru/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luoru/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luoru/pojo/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luoru/pojo/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luoru/pojo/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luoru/pojo/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luoru/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luoru/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luoru/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luoru/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luoru/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luoru/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luoru/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luoru/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/mapper/CartMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/mapper/CartMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/mapper/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/mapper/CategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/mapper/OrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/mapper/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/mapper/ProductMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/spring-mvc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/spring-mybatis" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/spring-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/controller/CategoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/mapper/CategoryMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/mapper/CategoryMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/mapper/ProductMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/mapper/ProductMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/pojo/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/pojo/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/service/CategoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/service/impl/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/service/impl/CategoryServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/service/impl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/com/luoru/service/impl/ProductServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/mapper/CartMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/mapper/CartMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/mapper/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/mapper/CategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/mapper/OrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/mapper/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/mapper/ProductMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/YouMall/WEB-INF/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YouMall/images/goods/1569673849484.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/YouMall/images/goods/1570085176661.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/luoru/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luoru/controller/CategoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/luoru/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luoru/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/luoru/mapper/CategoryMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luoru/mapper/CategoryMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/luoru/mapper/ProductMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luoru/mapper/ProductMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/luoru/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luoru/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/luoru/pojo/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luoru/pojo/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/luoru/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luoru/service/CategoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/luoru/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luoru/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/luoru/service/impl/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luoru/service/impl/CategoryServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/luoru/service/impl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/luoru/service/impl/ProductServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/CartMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/CartMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/CategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/OrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/ProductMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +98,8 @@
         <option value="JavaScript File" />
         <option value="Arquillian JUnit Test Class" />
         <option value="FxmlFile" />
-        <option value="Interface" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -92,6 +141,7 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -99,7 +149,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/target/YouMall/images" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -116,21 +166,22 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MyProject\YouMall\src\main\webapp" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.luoru.service.impl" />
       <recent name="com.luoru.service" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\MyProject\YouMall\target\YouMall\WEB-INF\classes" />
-      <recent name="D:\MyProject\YouMall\src\main\resource" />
-      <recent name="D:\MyProject\YouMall\src\main\webapp\images\goods" />
-      <recent name="D:\MyProject\YouMall\src\images\goods" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.luoru.utils" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\MyProject\YouMall\src\main\webapp" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyProject\YouMall\target\YouMall\images" />
+      <recent name="D:\MyProject\YouMall\target\YouMall\images\goods" />
+      <recent name="D:\MyProject\YouMall\target\YouMall\WEB-INF\classes" />
+      <recent name="D:\MyProject\YouMall\src\main\resource" />
+      <recent name="D:\MyProject\YouMall\src\main\webapp\images\goods" />
     </key>
   </component>
   <component name="RunManager">
@@ -284,7 +335,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -371,7 +422,12 @@
       <workItem from="1578535440366" duration="444000" />
       <workItem from="1578647947126" duration="896000" />
       <workItem from="1578704723523" duration="4432000" />
-      <workItem from="1578790693871" duration="9984000" />
+      <workItem from="1578790693871" duration="18202000" />
+      <workItem from="1578878368488" duration="11855000" />
+      <workItem from="1578915341102" duration="5190000" />
+      <workItem from="1578964094267" duration="10752000" />
+      <workItem from="1579052685536" duration="15804000" />
+      <workItem from="1579086596074" duration="4758000" />
     </task>
     <task id="LOCAL-00001" summary="the second commit">
       <created>1577236695987</created>
@@ -394,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577785479649</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2019/12/31 添加商家">
+      <created>1578818298336</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578818298336</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -428,15 +491,6 @@
     <history-entry file="UserServiceTest_findUserByIdTest - 2019.11.20 at 15h 08m 53s.xml">
       <configuration name="UserServiceTest.findUserByIdTest" configurationId="JUnit" />
     </history-entry>
-  </component>
-  <component name="TodoView" selected-index="3">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -482,9 +536,14 @@
     <MESSAGE value="the second commit" />
     <MESSAGE value="2019/12/30  修好崩掉的bug" />
     <MESSAGE value="2019/12/31 短信验证注册" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019/12/31 短信验证注册" />
+    <MESSAGE value="2019/12/31 添加商家" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019/12/31 添加商家" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="232" y="0" key="#Inspections" timestamp="1578820288683">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="232" y="0" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1578820288683" />
     <state x="233" y="0" key="#Tomcat_Server" timestamp="1578648513377">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -497,10 +556,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1578648525940" />
-    <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser" timestamp="1578800646486">
+    <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser" timestamp="1579088817797">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1578800646486" />
+    <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1579088817797" />
     <state x="488" y="230" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578648241378">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -509,58 +568,62 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="222" y="0" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1280.680@0.0.1280.680" timestamp="1578648237474" />
+    <state x="249" y="0" key="CommitChangelistDialog2" timestamp="1578818297158">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="249" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1578818297158" />
     <state x="422" y="95" key="FileChooserDialogImpl" timestamp="1578648311613">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="422" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1578648311613" />
-    <state width="549" height="93" key="GridCell.Tab.0.bottom" timestamp="1578806885401">
+    <state width="1189" height="386" key="GridCell.Tab.0.bottom" timestamp="1579093585447">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="549" height="93" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578806885401" />
-    <state width="549" height="93" key="GridCell.Tab.0.center" timestamp="1578806885401">
+    <state width="1189" height="386" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579093585447" />
+    <state width="1189" height="386" key="GridCell.Tab.0.center" timestamp="1579093585447">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="549" height="93" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1578806885401" />
-    <state width="549" height="93" key="GridCell.Tab.0.left" timestamp="1578806885400">
+    <state width="1189" height="386" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1579093585447" />
+    <state width="1189" height="386" key="GridCell.Tab.0.left" timestamp="1579093585447">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="549" height="93" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1578806885400" />
-    <state width="549" height="93" key="GridCell.Tab.0.right" timestamp="1578806885401">
+    <state width="1189" height="386" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1579093585447" />
+    <state width="1189" height="386" key="GridCell.Tab.0.right" timestamp="1579093585447">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="549" height="93" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1578806885401" />
-    <state width="549" height="93" key="GridCell.Tab.1.bottom" timestamp="1578806885401">
+    <state width="1189" height="386" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1579093585447" />
+    <state width="1189" height="386" key="GridCell.Tab.1.bottom" timestamp="1579093585448">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="549" height="93" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578806885401" />
-    <state width="549" height="93" key="GridCell.Tab.1.center" timestamp="1578806885401">
+    <state width="1189" height="386" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579093585448" />
+    <state width="1189" height="386" key="GridCell.Tab.1.center" timestamp="1579093585447">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="549" height="93" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1578806885401" />
-    <state width="549" height="93" key="GridCell.Tab.1.left" timestamp="1578806885401">
+    <state width="1189" height="386" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1579093585447" />
+    <state width="1189" height="386" key="GridCell.Tab.1.left" timestamp="1579093585447">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="549" height="93" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1578806885401" />
-    <state width="549" height="93" key="GridCell.Tab.1.right" timestamp="1578806885401">
+    <state width="1189" height="386" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1579093585447" />
+    <state width="1189" height="386" key="GridCell.Tab.1.right" timestamp="1579093585448">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="549" height="93" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1578806885401" />
-    <state width="549" height="93" key="GridCell.Tab.2.bottom" timestamp="1578806885401">
+    <state width="1189" height="386" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1579093585448" />
+    <state width="1189" height="386" key="GridCell.Tab.2.bottom" timestamp="1579093585448">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="549" height="93" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578806885401" />
-    <state width="549" height="93" key="GridCell.Tab.2.center" timestamp="1578806885401">
+    <state width="1189" height="386" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579093585448" />
+    <state width="1189" height="386" key="GridCell.Tab.2.center" timestamp="1579093585448">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="549" height="93" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1578806885401" />
-    <state width="549" height="93" key="GridCell.Tab.2.left" timestamp="1578806885401">
+    <state width="1189" height="386" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1579093585448" />
+    <state width="1189" height="386" key="GridCell.Tab.2.left" timestamp="1579093585448">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="549" height="93" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1578806885401" />
-    <state width="549" height="93" key="GridCell.Tab.2.right" timestamp="1578806885401">
+    <state width="1189" height="386" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1579093585448" />
+    <state width="1189" height="386" key="GridCell.Tab.2.right" timestamp="1579093585448">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="549" height="93" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1578806885401" />
+    <state width="1189" height="386" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1579093585448" />
     <state width="1189" height="303" key="GridCell.Tab.3.bottom" timestamp="1578708172652">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -597,9 +660,17 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="13" y="0" width="1208" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1578801929009" />
-    <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1578790745395">
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1579052760864">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1578790745395" />
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1579052760864" />
+    <state x="211" y="0" key="com.intellij.javaee.view.ServerArtifactsDialog" timestamp="1578878815800">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="211" y="0" key="com.intellij.javaee.view.ServerArtifactsDialog/0.0.1280.680@0.0.1280.680" timestamp="1578878815800" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1579074172188">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1579074172188" />
   </component>
 </project>

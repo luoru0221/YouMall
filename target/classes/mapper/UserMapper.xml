@@ -46,4 +46,10 @@
         (#{userName},#{userPassword},#{userPhone},#{userEmail},#{userType});
     </insert>
 
+    <update id="updateUserType">
+        update users
+        set user_type = 1
+        where user_id = #{userId}
+    </update>
+
 </mapper>

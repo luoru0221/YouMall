@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.util.ArrayList;
+
 /**
  *  @author: Luoru
  *  @Date: 2019/12/12 22:35
@@ -21,6 +23,10 @@ public class CategoryController {
     @Autowired
     private CategoryServiceImpl categoryService;
 
+    /**
+     * 查询所有的分类信息
+     * @return 所有分类信息
+     */
     @ResponseBody
     @RequestMapping("/all")
     public Category getAllCategory(){
@@ -30,6 +36,15 @@ public class CategoryController {
         return category;
     }
 
-
+    /**
+     * 查询三级分类
+     * @param thirdCategoryId 第三级分类Id
+     * @return 三级分类信息
+     */
+    @ResponseBody
+    @RequestMapping("/three")
+    ArrayList<Category> getThreeCategory(int thirdCategoryId){
+        return categoryService.getThreeCategory(thirdCategoryId);
+    }
 
 }

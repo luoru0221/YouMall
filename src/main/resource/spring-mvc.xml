@@ -34,4 +34,5 @@
     <bean id="productController" class="com.luoru.controller.ProductController"/>
     <bean id="addressController" class="com.luoru.controller.AddressController"/>
     <bean id="orderController" class="com.luoru.controller.OrderController"/>
+    <bean id="storeController" class="com.luoru.controller.StoreController"/>
 </beans>

@@ -9,10 +9,10 @@
         <result column="product_name" property="productName"/>
         <result column="product_introduction" property="productIntroduction"/>
         <result column="product_category" property="productCategory"/>
-        <result column="product_store" property="productStore"/>
         <result column="product_image" property="productImage"/>
         <result column="product_stock" property="productStock"/>
         <result column="product_price" property="productPrice"/>
+        <result column="product_store_id" property="productStoreId"/>
         <result column="is_shelves" property="isShelves"/>
     </resultMap>
 
@@ -23,10 +23,10 @@
             <result column="product_name" property="productName"/>
             <result column="product_introduction" property="productIntroduction"/>
             <result column="product_category" property="productCategory"/>
-            <result column="product_store" property="productStore"/>
             <result column="product_image" property="productImage"/>
             <result column="product_stock" property="productStock"/>
             <result column="product_price" property="productPrice"/>
+            <result column="product_store_id" property="productStoreId"/>
             <result column="is_shelves" property="isShelves"/>
         </collection>
     </resultMap>
@@ -44,5 +44,39 @@
         where
         showproduct.show_product_id = product.product_id;
     </select>
+
+    <insert id="insertProduct" parameterType="com.luoru.pojo.Product" keyProperty="productId" useGeneratedKeys="true">
+        insert into product
+        (product_name,product_category,product_image,product_stock,product_price,product_introduction,product_store_id)
+        values
+        (#{productName},#{productCategory},#{productImage},#{productStock},#{productPrice},#{productIntroduction},#{productStoreId});
+    </insert>
+
+    <select id="findProductsByStore" resultMap="Product">
+        select * from product
+        where product_store_id = #{storeId};
+    </select>
+
+    <update id="updateProduct" parameterType="com.luoru.pojo.Product">
+        update product set
+        product_name = #{productName},
+        product_introduction = #{productIntroduction},
+        product_category = #{productCategory},
+        product_image = #{productImage},
+        product_price = #{productPrice},
+        product_stock = #{productStock},
+        is_shelves = #{isShelves}
+        where product_id = #{productId};
+    </update>
+
+    <delete id="deleteProducts" parameterType="int[]">
+        delete from product
+        where product_id in
+        <foreach item="item" collection="array" open="(" separator="," close=")">
+            #{item}
+        </foreach>;
+    </delete>
+
+
 
 </mapper>

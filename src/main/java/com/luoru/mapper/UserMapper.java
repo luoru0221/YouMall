@@ -47,4 +47,10 @@ public interface UserMapper {
      */
     int insertUser(User user);
 
+    /**
+     * 修改用户的类型
+     * @param userId 待修改的用户Id
+     */
+    void updateUserType(int userId);
+
 }

@@ -9,9 +9,9 @@
 	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.0.xsd">
 
     <!--Spring 整合mybatis的配置文件-->
-    <import resource="spring-mybatis"/>
+    <import resource="spring-mybatis.xml"/>
     <!--Spring 整合SpringMVC的配置文件-->
-    <import resource="spring-mvc"/>
+    <import resource="spring-mvc.xml"/>
     <!--Redis配置文件-->
     <import resource="applicationContext-redis.xml"/>
 

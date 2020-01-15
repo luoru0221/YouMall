@@ -31,4 +31,26 @@ public class CategoryServiceImpl implements CategoryService {
         }
     }
 
+    @Override
+    public ArrayList<Category> getThreeCategory(int thirdCategoryId) {
+
+        ArrayList<Category> threeCategory = new ArrayList<>();
+        //由第三级分类Id查询第三级分类
+        Category thirdCategory = categoryMapper.findCategoryById(thirdCategoryId);
+        //由第三级分类的父级分类Id查询第二级分类
+        Category secondCategory= categoryMapper.findCategoryById(thirdCategory.getCategoryFid());
+        ArrayList<Category> thirdCategories = categoryMapper.findChildrenCategory(secondCategory.getCategoryId());
+        secondCategory.setChildrenCategory(thirdCategories);
+        //由第二级分类的父级分类Id查询第一级分类
+        Category firstCategory = categoryMapper.findCategoryById(secondCategory.getCategoryFid());
+        ArrayList<Category> secondCategories = categoryMapper.findChildrenCategory(firstCategory.getCategoryId());
+        firstCategory.setChildrenCategory(secondCategories);
+
+        threeCategory.add(firstCategory);
+        threeCategory.add(secondCategory);
+        threeCategory.add(thirdCategory);
+
+        return threeCategory;
+    }
+
 }
