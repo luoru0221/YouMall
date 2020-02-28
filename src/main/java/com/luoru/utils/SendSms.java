@@ -11,8 +11,8 @@ import com.aliyuncs.profile.DefaultProfile;
 
 public class SendSms {
 
-    private static final String accessKeyId = "LTAI4Fsj3Q6iQyUXwSFUgAuw";
-    private static final String accessSecret = "PwTfkVQHKQKIUoQwXabnO9JWu8m1EU";
+    private static final String accessKeyId = "XXXXXXXXXXXXX";
+    private static final String accessSecret = "XXXXXXXXXXXXXXXXXXXX";
 
     /**
      * 发送短信验证码
